@@ -238,7 +238,7 @@ title('Ãèñòîãðàììà ðåãðåññèîííûõ îñòàòêîâ äëÿ
 Label={'Ïîëèíîì 0','Ïîëèíîì 1','Ïîëèíîì 2','Ïîëèíîì 3','Ëèòåðàòóðà'}';
 Names={'Íîìåð ìîäåëè','Betta 0','Betta 1','Betta 2','Betta 3','R2','R2 Ïðîâåðêà','Àíàëèç îñòàòêîâ','Îöåíêà äèñïåðñèè øóìà','Çíà÷èìîñòü ìîäåëè','F-Ñòàòèñòèêà','F-Ïðîâåðêà','Çíà÷èìîñòü êîýôôèöèåíòîâ'};
 
-filename='models_Berdalieva.xls';
+filename='models.xls';
 xlswrite(filename,Names,1,'A1')
 xlswrite(filename,Label,1,'A2')
 xlswrite(filename,Label,1,'A8')
